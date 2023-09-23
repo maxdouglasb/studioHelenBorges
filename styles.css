@@ -1,0 +1,15 @@
+@import url(./styles/header.css);
+@import url(./styles/carrosel.css);
+@import url(./styles/servicos.css);
+@import url(./styles/contato.css);
+@import url(./styles/footerlink.css);
+@import url(./styles/footer.css);
+:root {
+    --corFundoSecudaria: #81d1e5;
+    --corTextoPrincipal: #4d5795;
+    --corPrincipal: #ededd8;
+}
+
+body {
+    background-color: var(--corPrincipal);
+}

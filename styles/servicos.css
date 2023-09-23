@@ -1,0 +1,58 @@
+:root {
+    --corFundoSecudaria: #81d1e5;
+    --corTextoPrincipal: #4d5795;
+    --corPrincipal: #ededd8;
+}
+
+.subtitulo_servico {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.titulo_servico {
+    color: var(--corTextoPrincipal);
+    font-size: 18px;
+    margin-bottom: 2em;
+}
+
+.botao_servico {
+    text-decoration: none;
+    background: var(--corTextoPrincipal);
+    border: none;
+    border-radius: 6px 15px;
+    color: var(--corPrincipal);
+    font-weight: 400;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.servico {
+    align-items: center;
+    display: block;
+    background: var(--corPrincipal);
+    margin-bottom: 1em;
+}
+
+.my-sliders {
+    align-items: center;
+    text-align: center;
+}
+
+.servico img {
+    width: 250px;
+    margin-bottom: 1em;
+}
+
+.servico_link {
+    background-color: var(--corPrincipal);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--corTextoPrincipal);
+    font-weight: 400;
+    padding: 1em;
+    margin: 0 auto;
+    border-radius: 5px 25px;
+}

@@ -1,0 +1,13 @@
+.final_pagina {
+    background: var(--corFundoSecudaria);
+    padding: 1em;
+    align-items: center;
+    text-align: center;
+}
+
+.rodape_texto,
+.rodape_texto_tablet,
+.rodape_texto_mobile {
+    color: var(--corTextoPrincipal);
+    font-weight: 300;
+}

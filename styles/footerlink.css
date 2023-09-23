@@ -1,0 +1,37 @@
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.footer_titulo {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #858585;
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+
+.conteiner-footer {
+    padding: 3em;
+}
+
+.footer_link img {
+    width: 20px;
+}
+
+.footer_link_footer {
+    color: var(--corTextoPrincipal);
+    text-decoration: none;
+    margin-left: 0.7em;
+}
+
+.footer_link {
+    display: flex;
+    align-items: center;
+    margin: 0.6em 0;
+}
