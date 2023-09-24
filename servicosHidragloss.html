@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -36,7 +38,7 @@
             <nav class="menu_nav">
                 <a href="#" class="menu_link">Home</a>
                 <a href="#" class="menu_link">Sobre Nós</a>
-                <a href="#servico" class="menu_link">Serviços</a>
+                <a href="./servicos.html" class="menu_link">Serviços</a>
                 <a href="#" class="menu_link">Nossa Loja</a>
         </div>
     </header>
@@ -157,11 +159,108 @@
 
 
 
+
+
+    <section class="servico" id="servico">
+        <div class="my-sliderss">
+            <div class="servico_img">
+
+                <img src="./assets/labiosServico.png" class="d-block w-100" alt="...">
+                <div class="position-relative">
+                    <div class="position-absolute bottom-0 start-0">
+                        <a class="btn btn-light " href="./servicosHidragloss.html" role="button">Hydragloss</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="servico_img">
+                <img src="./assets/ciliusServico.png" class="d-block w-100" alt="...">
+                <div class="position-relative">
+                    <div class="position-absolute bottom-0 start-0">
+                        <a class="btn btn-light " href="#" role="button">Cílius</a>
+                    </div>
+                </div>
+            </div>
+            <div class="servico_img">
+                <img src="./assets/depilacaoFacial.png" class="d-block w-100" alt="...">
+                <div class="position-relative">
+                    <div class="position-absolute bottom-0 start-0">
+                        <a class="btn btn-light " href="#" role="button">Depilação facial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="servico_img">
+                <img src="./assets/sombrancelhas.png" class="d-block w-100" alt="...">
+                <div class="position-relative">
+                    <div class="position-absolute bottom-0 start-0">
+                        <a class="btn btn-light " href="#" role="button">Sobrancelhas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="servico_img">
+                <img src="./assets/limpeza.png" class="d-block w-100" alt="...">
+                <div class="position-relative">
+                    <div class="position-absolute bottom-0 start-0">
+                        <a class="btn btn-light " href="#" role="button">Limpeza de Pele</a>
+                    </div>
+                </div>
+            </div>
+            <div class="servico_img">
+                <img src="./assets/micropigmetacao.png" class="d-block w-100" alt="...">
+                <div class="position-relative">
+                    <div class="position-absolute bottom-0 start-0">
+                        <a class="btn btn-light " href="#" role="button">Micro de Olhos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="servico_img">
+                <img src="./assets/micro_labial.png" class="d-block w-100" alt="...">
+                <div class="position-relative">
+                    <div class="position-absolute bottom-0 start-0">
+                        <a class="btn btn-light " href="#" role="button">Micro Labial</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="servico_img">
+                <img src="./assets/depilacaoCorporal.png" class="d-block w-100" alt="...">
+                <div class="position-relative">
+                    <div class="position-absolute bottom-0 start-0">
+                        <a class="btn btn-light " href="#" role="button">Depilação</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
     <div class="subtitulo_servico">
         <h2 class="titulo_servico">SOMOS REFERÊNCIA NO UNIVERSO DA BELEZA!</h2>
         <a href="./servicos.html" class="botao_servico">Nossos Servicos</a>
     </div>
 
+
+    <section class="contato">
+        <div class="contato_conteiner form_contato">
+            <h2 class="contato_titulo">Fale Conosco</h2>
+            <p class="contato_texto">Dúvidas, elogios, agendamentos, entre em contato conosco!</p>
+            <form action="contato" class="formulario">
+                <input type="text" placeholder="Nome" required>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{5}[0-9]{4}" placeholder="Telefone/WhatApp " required>
+                <input type="email" placeholder="Email" required>
+                <textarea name="Mensagem" id="" cols="20" rows="7" placeholder="Mensagem"></textarea>
+                <button type="submit" class="contato_botao">ENVIAR</button>
+            </form>
+        </div>
+        <div class="contato_conteiner">
+            <video class="video" controls="controls" autoplay="autoplay">
+                <source src="./assets/video.mp4" type="video/mp">
+                </object>
+            </video>
+        </div>
+    </section>
 
 
     <hr>
@@ -237,6 +336,9 @@
 
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script type="module">
+        var slider = tns({ container: '.my-sliderss', items: 3, speed:3000, slideBy: 'page', autoplay: true , nav:false, autoplayButtonOutput:false, controls:false, mouseDrag:true}); </script>
 
 
     <script>

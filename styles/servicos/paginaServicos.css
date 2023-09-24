@@ -22,3 +22,20 @@ body {
     padding: 0.6em;
     font-family: 'Poppins', sans-serif;
 }
+
+@media screen and (min-width: 820px) {
+    .lista_de_servico_link {
+        width: 40%;
+    }
+    .lista_de_servico {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .lista_de_servico_link {
+        width: 30%;
+    }
+}

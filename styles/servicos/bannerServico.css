@@ -22,3 +22,14 @@
     font-family: 'Poppins', sans-serif;
     line-height: 20px;
 }
+
+@media screen and (min-width: 820px) {
+    .titulo_paginaServico {
+        padding: 1em 3em;
+    }
+    .texto_paginaServico {
+        padding: 0 6em 2em;
+        font-size: 18px;
+        margin-bottom: 2em;
+    }
+}
