@@ -66,3 +66,14 @@ textarea {
     cursor: pointer;
     margin: 0 auto;
 }
+
+@media screen and (min-width: 820px) {
+    .video {
+        display: block;
+        width: 300px;
+        height: 450px;
+    }
+    .contato {
+        gap: 4em;
+    }
+}

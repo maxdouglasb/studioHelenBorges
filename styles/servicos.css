@@ -56,3 +56,26 @@
     margin: 0 auto;
     border-radius: 5px 25px;
 }
+
+.my-sliderss {
+    display: none;
+}
+
+@media screen and (min-width: 820px) {
+    .subtitulo_servico {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0 3em;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .titulo_servico {
+        margin-left: 9;
+    }
+    .my-sliderss {
+        display: flex;
+    }
+    .my-sliders {
+        display: none;
+    }
+}
