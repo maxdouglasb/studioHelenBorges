@@ -47,19 +47,22 @@
 }
 
 .footer_nossaPagina,
-.footer_negocios,
-.rodape_texto_tablet,
-.rodape_texto {
+.footer_negocios {
     display: none;
 }
 
 @media screen and (min-width: 820px) {
     .footer_nossaPagina,
-    .footer_negocios,
-    .rodape_texto_tablet {
+    .footer_negocios {
         display: block;
     }
-    .rodape_texto_mobile {
-        display: none;
+}
+
+@media screen and (min-width: 1500px) {
+    .footer_link {
+        font-size: 20px;
+    }
+    .footer_titulo {
+        font-size: 24px;
     }
 }

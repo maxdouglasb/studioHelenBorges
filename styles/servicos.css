@@ -79,3 +79,22 @@
         display: none;
     }
 }
+
+@media screen and (min-width: 1700px) {
+    .subtitulo_servico {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .titulo_servico {
+        font-size: 40px;
+        width: 45%;
+        text-align: start;
+    }
+    .botao_servico {
+        padding: 1.5em 3em;
+        border-radius: 8px 20px;
+        font-size: 20px;
+    }
+}

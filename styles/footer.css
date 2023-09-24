@@ -11,3 +11,27 @@
     color: var(--corTextoPrincipal);
     font-weight: 300;
 }
+
+.rodape_texto_tablet,
+.rodape_texto {
+    display: none;
+}
+
+@media screen and (min-width: 820px) {
+    .rodape_texto_tablet {
+        display: block;
+    }
+    .rodape_texto_mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .rodape_texto_mobile,
+    .rodape_texto_tablet {
+        display: none;
+    }
+    .rodape_texto {
+        display: block;
+    }
+}
