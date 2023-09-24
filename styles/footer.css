@@ -10,6 +10,7 @@
 .rodape_texto_mobile {
     color: var(--corTextoPrincipal);
     font-weight: 300;
+    font-family: 'Poppins', sans-serif;
 }
 
 .rodape_texto_tablet,

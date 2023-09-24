@@ -1,0 +1,24 @@
+body {
+    --corPrincipal: #ededd8;
+}
+
+.lista_de_servico_link {
+    width: 80%;
+    margin-bottom: 3em;
+    margin-top: 2em;
+    -webkit-filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%));
+    filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%));
+}
+
+.lista_de_servico {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.serv {
+    font-size: 18px;
+    padding: 0.6em;
+    font-family: 'Poppins', sans-serif;
+}

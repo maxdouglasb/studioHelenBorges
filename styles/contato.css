@@ -22,12 +22,14 @@
         font-size: 16px;
         margin: 1em 0;
         color: var(--corTextoPrincipal);
+        font-family: 'Poppins', sans-serif;
     }
     
     .contato_titulo {
         color: var(--corTextoPrincipal);
         font-size: 30px;
         text-align: center;
+        font-family: 'Poppins', sans-serif;
     }
     
     form input,
@@ -37,12 +39,14 @@
         padding: 1em;
         border: none;
         border-radius: 15px;
+        font-family: 'Poppins', sans-serif;
     }
     
     form input::placeholder {
         font-size: 16px;
         color: #4d5795;
         font-weight: 400;
+        font-family: 'Poppins', sans-serif;
     }
     
     form textarea::placeholder {
@@ -65,6 +69,7 @@
         font-weight: 700;
         cursor: pointer;
         margin: 0 auto;
+        font-family: 'Poppins', sans-serif;
     }
     
     @media screen and (min-width: 820px) {

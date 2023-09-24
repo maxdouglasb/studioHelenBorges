@@ -1,0 +1,28 @@
+.img_banner_hydra {
+    width: 100%;
+}
+
+.artigo_hydra {
+    text-align: start;
+    padding: 2em;
+}
+
+.hydra_titulo {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--corTextoPrincipal);
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1em;
+}
+
+.texto_hydra {
+    line-height: 20px;
+    font-size: 18px;
+    color: var(--corTextoPrincipal);
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 2em;
+}
+
+.carrosel_servicos {
+    margin-bottom: 3em;
+}

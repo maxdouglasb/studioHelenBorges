@@ -1,108 +1,111 @@
-                                          :root {
-                                             --corFundoSecudaria: #81d1e5;
-                                             --corTextoPrincipal: #4d5795;
-                                             --corPrincipal: #ededd8;
-                                         }
-                                         
-                                         .menu-hamburgue {
-                                             width: 24px;
-                                             height: 24px;
-                                             display: inline-block;
-                                             background-image: url(../assets/Menu.png);
-                                             background-repeat: no-repeat;
-                                             background-position: center;
-                                             margin-left: 1em;
-                                         }
-                                         
-                                         .cabecalho {
-                                             display: flex;
-                                             justify-content: space-between;
-                                             align-items: center;
-                                             background-color: var(--corFundoSecudaria);
-                                             position: relative;
-                                             padding: 0.5em 0;
-                                             gap: 9em;
-                                         }
-                                         
-                                         .menu_hamburguer-inicial {
-                                             display: flex;
-                                         }
-                                         
-                                         .lista_menu_item {
-                                             background-color: var(--corFundoSecudaria);
-                                             padding: 0.5em;
-                                             font-size: 14px;
-                                             line-height: 24px;
-                                             font-weight: 400;
-                                             width: 80vw;
-                                             text-align: center;
-                                             margin-left: 2.3em;
-                                             margin-top: -0.1em;
-                                         }
-                                         
-                                         .menu_link {
-                                             background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-                                             -webkit-background-clip: text;
-                                             -webkit-text-fill-color: transparent;
-                                             background-clip: text;
-                                             text-decoration: none;
-                                             text-transform: uppercase;
-                                         }
-                                         
-                                         .logo img {
-                                             width: 8em;
-                                         }
-                                         
-                                         .logo {
-                                             margin-right: 2em;
-                                         }
-                                         
-                                         .logo {
-                                             display: flex;
-                                             align-items: center;
-                                         }
-                                         
-                                         .logo .img_logo {
-                                             width: 4em;
-                                         }
-                                         
-                                         .lista_menu {
-                                             position: absolute;
-                                             top: 100%;
-                                             display: none;
-                                         }
-                                         
-                                         .container_botao:checked~.lista_menu {
-                                             display: block;
-                                         }
-                                         
-                                         .container_botao,
-                                         .menu_nav {
-                                             display: none;
-                                         }
-                                         
-                                         @media screen and (min-width: 820px) {
-                                             .menu_hamburguer-inicial {
-                                                 display: none;
-                                             }
-                                             .logo {
-                                                 margin-left: 2em;
-                                             }
-                                             .menu {
-                                                 margin-right: 3em;
-                                                 display: block;
-                                             }
-                                             .menu_nav {
-                                                 display: flex;
-                                                 gap: 2em;
-                                             }
-                                             .menu_link {
-                                                 font-size: 14px;
-                                             }
-                                         }
-                                         
-                                         @media screen and (min-width: 1500px) {
-                                             .cabecalho {
-                                                 justify-content: center;
-                                             }
-                                         }
+                                             :root {
+                                                --corFundoSecudaria: #81d1e5;
+                                                --corTextoPrincipal: #4d5795;
+                                                --corPrincipal: #ededd8;
+                                            }
+                                            
+                                            .menu-hamburgue {
+                                                width: 24px;
+                                                height: 24px;
+                                                display: inline-block;
+                                                background-image: url(../assets/Menu.png);
+                                                background-repeat: no-repeat;
+                                                background-position: center;
+                                                margin-left: 1em;
+                                            }
+                                            
+                                            .cabecalho {
+                                                display: flex;
+                                                justify-content: space-between;
+                                                align-items: center;
+                                                background-color: var(--corFundoSecudaria);
+                                                position: relative;
+                                                padding: 0.5em 0;
+                                                gap: 9em;
+                                            }
+                                            
+                                            .menu_hamburguer-inicial {
+                                                display: flex;
+                                            }
+                                            
+                                            .lista_menu_item {
+                                                background-color: var(--corFundoSecudaria);
+                                                padding: 0.5em;
+                                                font-size: 14px;
+                                                line-height: 24px;
+                                                font-weight: 400;
+                                                width: 80vw;
+                                                text-align: center;
+                                                margin-left: 2.3em;
+                                                margin-top: -0.1em;
+                                                font-family: 'Poppins', sans-serif;
+                                            }
+                                            
+                                            .menu_link {
+                                                background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+                                                -webkit-background-clip: text;
+                                                -webkit-text-fill-color: transparent;
+                                                background-clip: text;
+                                                text-decoration: none;
+                                                text-transform: uppercase;
+                                                font-family: 'Poppins', sans-serif;
+                                            }
+                                            
+                                            .logo img {
+                                                width: 8em;
+                                            }
+                                            
+                                            .logo {
+                                                margin-right: 2em;
+                                            }
+                                            
+                                            .logo {
+                                                display: flex;
+                                                align-items: center;
+                                            }
+                                            
+                                            .logo .img_logo {
+                                                width: 4em;
+                                            }
+                                            
+                                            .lista_menu {
+                                                position: absolute;
+                                                top: 100%;
+                                                display: none;
+                                                font-family: 'Poppins', sans-serif;
+                                            }
+                                            
+                                            .container_botao:checked~.lista_menu {
+                                                display: block;
+                                            }
+                                            
+                                            .container_botao,
+                                            .menu_nav {
+                                                display: none;
+                                            }
+                                            
+                                            @media screen and (min-width: 820px) {
+                                                .menu_hamburguer-inicial {
+                                                    display: none;
+                                                }
+                                                .logo {
+                                                    margin-left: 2em;
+                                                }
+                                                .menu {
+                                                    margin-right: 3em;
+                                                    display: block;
+                                                }
+                                                .menu_nav {
+                                                    display: flex;
+                                                    gap: 2em;
+                                                }
+                                                .menu_link {
+                                                    font-size: 14px;
+                                                }
+                                            }
+                                            
+                                            @media screen and (min-width: 1500px) {
+                                                .cabecalho {
+                                                    justify-content: center;
+                                                }
+                                            }
